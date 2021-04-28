@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -132,6 +133,6 @@ STATIC_URL = "/static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+CREDY_MOVIES_USERNAME = os.environ.get("USERNAME", "")
+CREDY_MOVIE_PASSWORD = os.environ.get("PASSWORD", "")
 
-CREDY_MOVIES_USERNAME = "iNd3jDMYRKsN1pjQPMRz2nrq7N99q4Tsp9EY9cM0"
-CREDY_MOVIE_PASSWORD = "Ne5DoTQt7p8qrgkPdtenTK8zd6MorcCR5vXZIJNfJwvfafZfcOs4reyasVYddTyXCz9hcL5FGGIVxw3q02ibnBLhblivqQTp4BIC93LZHj4OppuHQUzwugcYu7TIC5H1"
