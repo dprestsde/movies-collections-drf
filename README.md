@@ -1,7 +1,7 @@
 # Setup
 
 #### Clone the project by 
-` git clone https://github.com/dprestsde/movie-collection-apis.git`
+` git clone https://github.com/dprestsde/movies-collections-drf.git`
 
 #### steps to setup 
 - Create a virtual environment and activate it.
